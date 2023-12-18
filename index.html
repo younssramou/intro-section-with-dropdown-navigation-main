@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="leftpice">
+          <img src="./images/logo.svg" alt="snap-logo" />
+          <a href="#" class="humbrger" id="humbrger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+          <div class="sidebar" id="sdbar">
+            <ul class="navoptions">
+              <li class="li01">
+                <div class="features" id="features">
+                  <a href="#" id="featuresA">Features</a>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt=""
+                    id="arrowdown"
+                  />
+                  <img src="./images/icon-arrow-up.svg" alt="" id="arrowup" />
+                </div>
+                <div class="time" id="time">
+                  <div class="imgs">
+                    <img src="/images/icon-todo.svg" alt="" />
+                    <img src="./images/icon-calendar.svg" alt="" />
+                    <img src="./images/icon-reminders.svg" alt="" />
+                    <img src="/images/icon-planning.svg" alt="" />
+                  </div>
+                  <ul class="time001">
+                    <li><a href="#">Todo List</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Reminders</a></li>
+                    <li><a href="#">Planning</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="li02">
+                <div class="company" id="company">
+                  <a id="companyA" href="#">Company</a>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt=""
+                    id="arrowdown"
+                  />
+                  <img src="./images/icon-arrow-up.svg" alt="" id="arrowup" />
+                </div>
+                <ul class="aboutus" id="aboutus">
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+            <div class="login-register">
+            <button class="login">Login</button>
+            <button class="register">Register</button>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+      <section class="section1">
+        <div class="hpb">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="learnmore">Learn more</button>
+        </div>
+        <div class="databiz">
+          <img src="./images/client-databiz.svg" alt="" />
+          <img src="./images/client-audiophile.svg" alt="" />
+          <img src="./images/client-meet.svg" alt="" />
+          <img src="./images/client-maker.svg" alt="" />
+        </div>
+      </section>
+      <section class="section2">
+        <img src="./images/image-hero-desktop.png" alt="" />
+        <img src="./images/image-hero-mobile.png" alt="">
+      </section>
+    </div>
+    <!-- <div class="attribution">
+    <Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your
+      Name Here</a>.
+  </div>   -->
+    <script src="./script.js"></script>
+  </body>
+</html>
